@@ -1,3 +1,29 @@
-.canvas{
-    background-color: #000;
+body {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  height: 100vh;
+}
+.canvas {
+  background-color: #000;
+}
+@media (max-width: 762px) {
+  .canvas {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 762px) {
+  .canvas {
+    width: 700px;
+    height: 600px;
+  }
 }
